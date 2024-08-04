@@ -2,3 +2,7 @@
 /masks
 /outputs
 /weights
+/json
+/datasets
+/logs
+/resize.py
