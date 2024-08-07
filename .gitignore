@@ -6,3 +6,9 @@
 /datasets
 /logs
 /resize.py
+/query_masks
+/4.ipynb
+/predict.ipynb
+/sam_model.pth
+/test.ipynb
+/train.ipynb
