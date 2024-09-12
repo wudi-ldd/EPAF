@@ -48,3 +48,20 @@ image3
 ```
 
 ---
+
+---
+
+### Semantic Segmentation Models Used in Training
+
+In this project, we employed two state-of-the-art semantic segmentation models for training and evaluation:
+
+1. **Segformer**: 
+   - Repository: [Segformer (PyTorch Implementation)](https://github.com/bubbliiiing/segformer-pytorch)
+   - Description: Segformer is a transformer-based semantic segmentation model that combines high efficiency with high accuracy. It can achieve competitive results on various segmentation tasks while maintaining a simple model architecture.
+
+2. **DeepLabV3+**:
+   - Repository: [DeepLabV3+ (PyTorch Implementation)](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)
+   - Description: DeepLabV3+ extends DeepLabV3 by adding a simple yet effective decoder module to refine segmentation results, particularly along object boundaries. It is widely used in segmentation tasks due to its balance between speed and accuracy.
+
+---
+
