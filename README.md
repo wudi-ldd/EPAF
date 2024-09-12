@@ -87,6 +87,4 @@ This project uses publicly available datasets for training and evaluation. You c
 2. **Dataset 2**: [Annotated Pore Structure Data](https://www.scidb.cn/detail?dataSetId=727601552654598144)
 3. **Dataset 3**: [Additional Dense Sandstone Pore Structure Data](https://www.scidb.cn/detail?dataSetId=b068f97abd9b4b6da1558bcc20337632)
 
-Please download these datasets and place them in the `datasets/` directory following the structure described above.
-
 ---
