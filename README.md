@@ -1,4 +1,4 @@
-
+EPAF
 ---
 
 ### Training Workflow
@@ -75,10 +75,18 @@ In this project, we utilized two state-of-the-art semantic segmentation models f
 
 1. **Segformer**: 
    - Repository: [Segformer (PyTorch Implementation)](https://github.com/bubbliiiing/segformer-pytorch)
-   - Description: Segformer is a transformer-based semantic segmentation model that balances efficiency and accuracy, achieving strong results on various segmentation tasks.
 
 2. **DeepLabV3+**:
    - Repository: [DeepLabV3+ (PyTorch Implementation)](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)
-   - Description: DeepLabV3+ enhances DeepLabV3 by adding a decoder module for better segmentation along object boundaries, making it ideal for tasks requiring both speed and accuracy.
+
+### Dataset
+
+This project uses publicly available datasets for training and evaluation. You can download the datasets from the following links:
+
+1. **Dataset 1**: [High-Resolution Dense Sandstone Pore Dataset](https://www.scidb.cn/en/detail?dataSetId=727528044247384064)
+2. **Dataset 2**: [Annotated Pore Structure Data](https://www.scidb.cn/detail?dataSetId=727601552654598144)
+3. **Dataset 3**: [Additional Dense Sandstone Pore Structure Data](https://www.scidb.cn/detail?dataSetId=b068f97abd9b4b6da1558bcc20337632)
+
+Please download these datasets and place them in the `datasets/` directory following the structure described above.
 
 ---
