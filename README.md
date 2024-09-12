@@ -1,9 +1,12 @@
-
 ---
 
-### Training Data Format
+### Training Workflow
 
-The training dataset should be organized in the following structure:
+This project follows a clear workflow for preparing the dataset, training the model, and using the trained model for automatic data annotation. Below are the steps to follow:
+
+#### 1. Prepare the Dataset
+
+Organize the dataset into the following structure:
 
 ```
 datasets/
@@ -26,19 +29,13 @@ datasets/
 └── val.txt    # List of image names (without extensions) used for validation
 ```
 
-### File Descriptions
+- **images/**: Input images in `.png` format, resized to 1024x1024 during data loading.
+- **masks/**: Ground truth masks in `.png` format, corresponding to the images. Masks should be resized to 1024x1024.
+- **json/** (optional): Contains metadata or annotations in `.json` format.
+- **train.txt**: Lists the image names (without extensions) used for training.
+- **val.txt**: Lists the image names (without extensions) used for validation.
 
-- **images/**: This folder contains all the input images for training and validation in `.png` format. The images should be resized to 1024x1024 resolution during data loading.
-  
-- **masks/**: This folder contains the corresponding ground truth masks for the images in `.png` format. Each mask is a single-channel image, where each pixel represents the class label of the corresponding pixel in the input image. Masks should be resized to 1024x1024 resolution.
-
-- **json/**: This optional folder contains metadata or annotations for the images, saved in `.json` format.
-
-- **train.txt**: A text file that lists the names (without the `.png` extension) of the images used for training. Each line contains one image name.
-
-- **val.txt**: A text file similar to `train.txt` but for validation images.
-
-### Example of train.txt or val.txt
+Example for `train.txt` or `val.txt`:
 
 ```
 image1
@@ -47,21 +44,40 @@ image3
 ...
 ```
 
----
+#### 2. Download the SAM Pretrained Model
+
+Before training, you need to download the pretrained SAM model.
+
+- Visit [SAM Model Repository](https://github.com/facebookresearch/segment-anything) to download the appropriate pretrained weights. 
+- Place the downloaded weights in the `weights/` directory.
+
+#### 3. Train the Model
+
+To train the model, follow these steps:
+
+- Open and run `train.ipynb`, which contains the code to train the model using your dataset.
+- During training, the SAM model's parameters are frozen, and only the LoRA layers and custom convolution layers are trained for semantic segmentation.
+- Ensure the dataset is correctly prepared, and SAM pretrained weights are available before starting the training process.
+
+#### 4. Perform Automatic Data Annotation
+
+Once the model is trained, you can use it for automatic data annotation.
+
+- Open and run `EPAF.ipynb`, which contains the script for automatic annotation using the fine-tuned model.
+- The notebook uses the trained model to annotate new images based on the segmentation results.
 
 ---
 
 ### Semantic Segmentation Models Used in Training
 
-In this project, we employed two state-of-the-art semantic segmentation models for training and evaluation:
+In this project, we utilized two state-of-the-art semantic segmentation models for training and evaluation:
 
 1. **Segformer**: 
    - Repository: [Segformer (PyTorch Implementation)](https://github.com/bubbliiiing/segformer-pytorch)
-   - Description: Segformer is a transformer-based semantic segmentation model that combines high efficiency with high accuracy. It can achieve competitive results on various segmentation tasks while maintaining a simple model architecture.
+   - Description: Segformer is a transformer-based semantic segmentation model that balances efficiency and accuracy, achieving strong results on various segmentation tasks.
 
 2. **DeepLabV3+**:
    - Repository: [DeepLabV3+ (PyTorch Implementation)](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)
-   - Description: DeepLabV3+ extends DeepLabV3 by adding a simple yet effective decoder module to refine segmentation results, particularly along object boundaries. It is widely used in segmentation tasks due to its balance between speed and accuracy.
+   - Description: DeepLabV3+ enhances DeepLabV3 by adding a decoder module for better segmentation along object boundaries, making it ideal for tasks requiring both speed and accuracy.
 
 ---
-
