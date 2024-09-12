@@ -30,7 +30,7 @@ datasets/
 
 - **images/**: This folder contains all the input images for training and validation in `.png` format. The images should be resized to 1024x1024 resolution during data loading.
   
-- **masks/**: This folder contains the corresponding ground truth masks for the images in `.png` format. Each mask is a single-channel image, where each pixel represents the class label of the corresponding pixel in the input image. Masks should be resized to 256x256 resolution.
+- **masks/**: This folder contains the corresponding ground truth masks for the images in `.png` format. Each mask is a single-channel image, where each pixel represents the class label of the corresponding pixel in the input image. Masks should be resized to 1024x1024 resolution.
 
 - **json/**: This optional folder contains metadata or annotations for the images, saved in `.json` format.
 
