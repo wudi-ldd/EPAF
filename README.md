@@ -57,7 +57,7 @@ Before training, you need to download the pretrained SAM model.
 To train the model, follow these steps:
 
 - Open and run `train.ipynb`, which contains the code to train the model using your dataset.
-- During training, the SAM model's parameters are frozen, and only the LoRA layers and custom convolution layers are trained for semantic segmentation.
+- During training, the SAM model's parameters are frozen, and only the LoRA layers and custom convolution layers are trained for feature extraction.
 - Ensure the dataset is correctly prepared, and SAM pretrained weights are available before starting the training process.
 
 #### 4. Perform Automatic Data Annotation
