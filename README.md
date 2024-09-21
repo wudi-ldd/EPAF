@@ -1,5 +1,10 @@
-EPAF
 ---
+
+# EPAF
+
+### Project Overview
+
+EPAF is designed for automatic data annotation using advanced semantic segmentation models. This project aims to streamline the annotation process for microscopy images, improving efficiency and accuracy in research workflows.
 
 ### Training Workflow
 
@@ -67,7 +72,9 @@ Once the model is trained, you can use it for automatic data annotation.
 - Open and run `EPAF.ipynb`, which contains the script for automatic annotation using the fine-tuned model.
 - The notebook uses the trained model to annotate new images based on the segmentation results.
 
----
+### Usage Instructions
+
+To annotate new images, specify the directory containing the images in `EPAF.ipynb` and run the annotation function. Adjust parameters as needed for your dataset.
 
 ### Dependencies
 
@@ -84,7 +91,10 @@ pip install git+https://github.com/facebookresearch/segment-anything.git
 
 Adjust the versions according to your environment and requirements.
 
----
+### Troubleshooting
+
+- **Issue**: Model fails to load.  
+  **Solution**: Ensure pretrained weights are correctly placed in the `weights/` directory.
 
 ### Semantic Segmentation Models Used in Training
 
@@ -104,4 +114,12 @@ This project uses publicly available datasets for training and evaluation. You c
 2. **Dataset 2**: [A photomicrograph dataset of Upper Paleozoic tight sandstone from Linxing block, eastern margin of Ordos Basin](https://www.scidb.cn/detail?dataSetId=727601552654598144)
 3. **Dataset 3**: [Microscopic image data set of Xujiahe gas reservoir in northeast Sichuan](https://www.scidb.cn/detail?dataSetId=b068f97abd9b4b6da1558bcc20337632)
 
----
+### Contribution Guidelines
+
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+--- 
