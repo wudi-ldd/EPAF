@@ -69,6 +69,23 @@ Once the model is trained, you can use it for automatic data annotation.
 
 ---
 
+### Dependencies
+
+Before starting, ensure you have the following dependencies installed:
+
+```bash
+pip install torch torchvision torchaudio
+pip install opencv-python
+pip install matplotlib
+pip install numpy
+pip install scikit-learn
+pip install git+https://github.com/facebookresearch/segment-anything.git
+```
+
+Adjust the versions according to your environment and requirements.
+
+---
+
 ### Semantic Segmentation Models Used in Training
 
 In this project, we utilized two state-of-the-art semantic segmentation models for training and evaluation:
