@@ -1,10 +1,10 @@
 ---
 
-# EPAF: Efficient Patch-based Annotation Framework
+# EPAF: An Efficient Pore Annotation Framework for Tight Sandstone Images with the Segment Anything Model
 
 ## Overview
 
-EPAF (Efficient Patch-based Annotation Framework) is an advanced toolkit designed for automatic data annotation using state-of-the-art semantic segmentation models. It streamlines the annotation process for microscopy images, enhancing efficiency and accuracy in research workflows. By leveraging powerful models like SAM (Segment Anything Model) and integrating techniques like LoRA (Low-Rank Adaptation), EPAF provides a robust framework for researchers and practitioners in image segmentation and analysis.
+EPAF (Efficient Pore Annotation Framework) is an advanced toolkit designed for automatic data annotation using state-of-the-art semantic segmentation models. It streamlines the annotation process for microscopy images, enhancing efficiency and accuracy in research workflows. By leveraging powerful models like SAM (Segment Anything Model) and integrating techniques like LoRA (Low-Rank Adaptation), EPAF provides a robust framework for researchers and practitioners in image segmentation and analysis.
 
 ## Table of Contents
 
@@ -250,33 +250,5 @@ The project utilizes publicly available datasets for training and evaluation:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- **Contributors**: [Your Name](https://github.com/your_username) and collaborators.
-- **Institution**: [Your Institution or Organization]
-- **Citation**: If you use this code in your research, please cite our paper:
-
-  ```
-  @article{yourpaper2023,
-    title={Your Paper Title},
-    author={Your Name and Collaborator Name},
-    journal={Journal Name},
-    year={2023},
-    publisher={Publisher}
-  }
-  ```
-
-## Contact
-
-For questions or issues, please open an issue on the [GitHub repository](https://github.com/your_username/EPAF) or contact [your.email@example.com](mailto:your.email@example.com).
-
----
-
-*Note: Replace placeholders like `Your Name`, `Your Institution`, `Your Paper Title`, `Journal Name`, and contact information with actual details relevant to your project.*
-
-## Conclusion
-
-EPAF provides a comprehensive framework for efficient and accurate image annotation, leveraging cutting-edge models and techniques. By modularizing the code and following best practices, we aim to facilitate easy adoption and collaboration within the research community.
 
 ---
