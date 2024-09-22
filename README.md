@@ -6,19 +6,6 @@
 
 EPAF (Efficient Pore Annotation Framework) is an advanced automatic image annotation framework. It streamlines the annotation process for microscopy images, enhancing efficiency and accuracy in research workflows. By leveraging powerful models like SAM (Segment Anything Model) and integrating techniques like LoRA (Low-Rank Adaptation), EPAF provides a robust framework for researchers and practitioners in image segmentation and analysis.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Dataset Preparation](#dataset-preparation)
-- [Training](#training)
-- [Automatic Annotation](#automatic-annotation)
-- [Usage Instructions](#usage-instructions)
-- [Dependencies](#dependencies)
-- [Semantic Segmentation Models](#semantic-segmentation-models)
-- [Datasets](#datasets)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 ## Installation
 
 Clone the repository:
