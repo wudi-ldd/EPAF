@@ -24,7 +24,7 @@ EPAF (Efficient Pore Annotation Framework) is an advanced automatic image annota
 Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/EPAF.git
+git clone https://github.com/wudi-ldd/EPAF.git
 cd EPAF
 ```
 
