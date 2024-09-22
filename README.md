@@ -20,14 +20,6 @@ EPAF (Efficient Pore Annotation Framework) is an advanced automatic image annota
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-## Features
-
-- **Modular Design**: Clean and maintainable codebase with modularized components (`config.py`, `models.py`, `dataset.py`, etc.).
-- **State-of-the-Art Models**: Utilizes advanced models like SAM and integrates LoRA for efficient training.
-- **Easy Integration**: Designed to be easily integrated into existing workflows.
-- **Customizable**: Adjustable parameters and configurations to suit various datasets and requirements.
-- **Reproducible Results**: Ensures reproducibility with fixed random seeds and detailed logging.
-
 ## Installation
 
 Clone the repository:
