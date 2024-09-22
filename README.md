@@ -215,17 +215,13 @@ Here’s the updated section with the addition of the **LoRA** repository link:
 
 ## Models and Tools in EPAF
 
-EPAF leverages cutting-edge models and tools for automatic image annotation, with additional models used for comparison and performance validation. These models and tools help streamline both the initial annotation and any necessary post-processing adjustments.
+EPAF leverages advanced and efficient models and tools for automatic image annotation, with additional models used for comparison and performance validation. These models and tools help streamline both the initial annotation and any necessary post-processing adjustments.
 
-### 1. **Segment Anything Model (SAM)**:
-   - Repository: [Segment Anything](https://github.com/facebookresearch/segment-anything)
-   - SAM is a promptable segmentation model capable of zero-shot generalization to unfamiliar objects and images, making it highly versatile for a wide range of segmentation tasks.
-
-### 2. **LoRA (Low-Rank Adaptation)**:
+### 1. **LoRA (Low-Rank Adaptation)**:
    - Repository: [LoRA](https://github.com/microsoft/LoRA)
    - LoRA is integrated into SAM to efficiently fine-tune large models. It works by injecting trainable low-rank decomposition matrices into each layer of the Transformer architecture, minimizing computational resources while maintaining high performance.
 
-### 3. **Models Used for Performance Validation**:
+### 2. **Models Used for Performance Validation**:
    - **Segformer**:
      - Repository: [Segformer (PyTorch Implementation)](https://github.com/NVlabs/SegFormer)
      - Segformer is a lightweight and efficient model designed for high-performance segmentation, used here for comparison in evaluating EPAF’s annotation effectiveness.
@@ -234,7 +230,7 @@ EPAF leverages cutting-edge models and tools for automatic image annotation, wit
      - Repository: [DeepLabV3+ (PyTorch Implementation)](https://github.com/VainF/DeepLabV3Plus-Pytorch)
      - DeepLabV3+ is a popular semantic segmentation architecture known for its accuracy in pixel-wise classification, and is used as a benchmark model for validating EPAF’s performance.
 
-### 4. **Interactive Annotation Correction Tool**:
+### 2. **Interactive Annotation Correction Tool**:
    - **ISAT (Interactive Segmentation Annotation Tool)**:
      - Repository: [ISAT with Segment Anything](https://github.com/yatengLG/ISAT_with_segment_anything)
      - ISAT is a powerful tool for making post-annotation corrections. It allows users to refine automatic segmentation results interactively, integrating with the SAM model for enhanced precision.
