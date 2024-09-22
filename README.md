@@ -8,7 +8,6 @@ EPAF (Efficient Pore Annotation Framework) is an advanced automatic image annota
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Dataset Preparation](#dataset-preparation)
 - [Training](#training)
