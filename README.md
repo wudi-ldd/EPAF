@@ -69,7 +69,7 @@ To train the model, follow these steps:
 
 Once the model is trained, you can use it for automatic data annotation.
 
-- Open and run `EPAF.ipynb`, which contains the script for automatic annotation using the fine-tuned model.
+- Open and run `EPAF.py`, which contains the script for automatic annotation using the fine-tuned model.
 - The notebook uses the trained model to annotate new images based on the segmentation results.
 
 ### Usage Instructions
