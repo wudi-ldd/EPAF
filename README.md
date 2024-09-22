@@ -114,10 +114,6 @@ This project uses publicly available datasets for training and evaluation. You c
 2. **Dataset 2**: [A photomicrograph dataset of Upper Paleozoic tight sandstone from Linxing block, eastern margin of Ordos Basin](https://www.scidb.cn/detail?dataSetId=727601552654598144)
 3. **Dataset 3**: [Microscopic image data set of Xujiahe gas reservoir in northeast Sichuan](https://www.scidb.cn/detail?dataSetId=b068f97abd9b4b6da1558bcc20337632)
 
-### Contribution Guidelines
-
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
