@@ -215,13 +215,9 @@ Here’s the updated section with the addition of the **LoRA** repository link:
 
 ## Models and Tools in EPAF
 
-EPAF leverages advanced and efficient models and tools for automatic image annotation, with additional models used for comparison and performance validation. These models and tools help streamline both the initial annotation and any necessary post-processing adjustments.
+EPAF leverages advanced and efficient models and tools for automatic image annotation, which can be used for annotation performance validation or further semi-automatic optimization of annotation results using these tools.
 
-### 1. **LoRA (Low-Rank Adaptation)**:
-   - Repository: [LoRA](https://github.com/microsoft/LoRA)
-   - LoRA is integrated into SAM to efficiently fine-tune large models. It works by injecting trainable low-rank decomposition matrices into each layer of the Transformer architecture, minimizing computational resources while maintaining high performance.
-
-### 2. **Models Used for Performance Validation**:
+### 1. **Models Used for Performance Validation**:
    - **Segformer**:
      - Repository: [Segformer (PyTorch Implementation)](https://github.com/NVlabs/SegFormer)
      - Segformer is a lightweight and efficient model designed for high-performance segmentation, used here for comparison in evaluating EPAF’s annotation effectiveness.
