@@ -1,0 +1,7 @@
+pip install torch torchvision
+pip install opencv-python
+pip install matplotlib
+pip install numpy
+pip install scikit-learn
+pip install tqdm
+pip install git+https://github.com/facebookresearch/segment-anything.git
