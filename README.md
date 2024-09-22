@@ -215,7 +215,7 @@ Here’s the updated section with the addition of the **LoRA** repository link:
 
 ## Models and Tools in EPAF
 
-EPAF leverages advanced and efficient models and tools for automatic image annotation, which can be used for annotation performance validation or further semi-automatic optimization of annotation results using these tools.
+EPAF integrates these models and tools for annotation performance validation, and allows for further semi-automated optimization of annotation results.
 
 ### 1. **Models Used for Performance Validation**:
    - **Segformer**:
