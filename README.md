@@ -4,8 +4,7 @@
 
 ## Overview
 
-EPAF (Efficient Pore Annotation Framework) is an advanced automatic image annotation framework. It streamlines the annotation process for microscopy images, enhancing efficiency and accuracy in research workflows. By leveraging powerful models like SAM (Segment Anything Model) and integrating techniques like LoRA (Low-Rank Adaptation), EPAF provides a robust framework for researchers and practitioners in image segmentation and analysis.
-
+EPAF (Efficient Pore Annotation Framework) is an advanced automatic image annotation framework. It streamlines the annotation process for microscopy images, enhancing efficiency and accuracy in research workflows. 
 ## Installation
 
 Clone the repository:
