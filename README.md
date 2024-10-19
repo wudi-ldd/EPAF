@@ -222,9 +222,8 @@ The project utilizes publicly available datasets for training and evaluation:
 1. **Dataset 1**: [A sandstone microscopical images dataset of He-8 Member of Upper Paleozoic in Northeast Ordos Basin](https://www.scidb.cn/en/detail?dataSetId=727528044247384064)
 2. **Dataset 2**: [A photomicrograph dataset of Upper Paleozoic tight sandstone from Linxing block, eastern margin of Ordos Basin](https://www.scidb.cn/detail?dataSetId=727601552654598144)
 3. **Dataset 3**: [Microscopic image data set of Xujiahe gas reservoir in northeast Sichuan](https://www.scidb.cn/detail?dataSetId=b068f97abd9b4b6da1558bcc20337632)
+*Feel free to use your own datasets following the same structure outlined in [Dataset Preparation](#dataset-preparation).*、
 **The annotated dataset used in this project will be released soon. Stay tuned for updates regarding the dataset availability.**
-
-*Feel free to use your own datasets following the same structure outlined in [Dataset Preparation](#dataset-preparation).*
 
 ## License
 
